@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ropa.css">
+    <title> A y R </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navegacion">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img src="logo.png" width="50px" height="50px"
+                    class="rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav ">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i
+                                class="fa-solid fa-house"></i>
+                            Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ropa.html"><i class="fa-solid fa-tag"></i> Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/ayr.americanclothes/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row align-items-center justify-content-center mx-3 my-3">
+            <div class="card d-flex my-4">
+                <h2>Bienvenidos</h2>
+                <a href="#">
+                    <img src="logo.png" width="200px" height="200px" class="rounded-circle">
+                </a>
+            </div>
+            <div class="card d-flex my-4">
+                <center>
+                    <h2 class="color">Productos Destacados</h2>
+                    <div class="card w-25 mx-3 my-3 ">
+                        <h2>Pollera Marron East5th</h2>
+                        <img src="4.jpg" class="card-img-top">
+                        <p><span class="fs-4">Talle Xl G </span><br>
+                            $12.000</p>
+                    </div>
+                    <div class="card w-25 mx-3 my-3 ">
+                        <h2>Pollera estampada Kasper</h2>
+                        <img src="5.jpg" class="card-img-top">
+                        <p><span class="fs-4">Talle 3 XL 82cm </span><br>
+                            $12.000</p>
+                    </div>
+                    <div class="card w-50 mx-3 my-3 ">
+                        <div id="productContainer">
+                                <!-- Products will be dynamically added here -->
+                        </div>
+                    </div>
+
+
+                    <button onclick="showMoreProducts()">Mostrar más</button>
+                    <button onclick="showLessProducts()">Mostrar menos</button>
+
+
+
+
+            </div>
+            </center>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="addtocart.js"></script>
+</body>
+
+</html>
