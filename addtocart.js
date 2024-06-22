@@ -30,12 +30,6 @@ const product = [
         price: 12.000,
     },
     {
-        id: 5,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/6.jpg?raw=true',
-        title: 'Pantalon Negro rayado Cabi',
-        price: 18.000,
-    },
-    {
         id: 7,
         image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/8.jpg?raw=true',
         title: 'Pantalon estampado Rombo Evelyn Brandt',
