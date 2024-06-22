@@ -209,3 +209,14 @@ button{
 .linea{
     color: transparent;
 }
+@media(width <= 550px){
+    .responsive{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .letra{
+        font-size: 12px;
+    }
+}
