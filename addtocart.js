@@ -43,7 +43,7 @@ const product = [
     },
     {
         id: 9,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/10.jpg?raw=true',
+        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/pantalon.jpg?raw=true',
         title: 'Pantalon Gris Ashley Stewart',
         price: 18.000,
     },
