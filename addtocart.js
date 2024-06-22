@@ -37,13 +37,13 @@ const product = [
     },
     {
         id: 8,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/9.jpg?raw=true',
+        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/pantalon.jpg?raw=true',
         title: 'Pantalon Talbots Puntos',
         price: 18.000,
     },
     {
         id: 9,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/pantalon.jpg?raw=true',
+        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/10.jpg?raw=true',
         title: 'Pantalon Gris Ashley Stewart',
         price: 18.000,
     },
@@ -90,8 +90,8 @@ document.getElementById('root').innerHTML = categories.map((item) =>
                     <img class='images' src=${image}></img>
                 </div>
             <div class='bottom'>
-            <p>${title}</p>
-            <h2>$ ${price}.000</h2>` +
+            <p class="letra">${title}</p>
+            <h2 class="letra">$ ${price}.000</h2>` +
             "<button onclick='addtocart(" + (i++) + ")'>Agregar producto</button>" +
             `</div>
             </div>`

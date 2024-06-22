@@ -216,7 +216,38 @@ button{
         flex-wrap: nowrap;
         flex-direction: column;
     }
+    .cart{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        margin: 15%;
+    }
+    .sidebar {
+        margin-top: 25%;
+        font-size: 10px;
+        width: 100%;
+    }
     .letra{
         font-size: 12px;
     }
+    .rowimg{
+        max-width: 30px;
+        max-height: 30px;
+    }
+        .foot{
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        #cartItem{
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+        }
 }
