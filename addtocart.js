@@ -13,9 +13,9 @@ const product = [
     },
     {
         id: 2,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/3.jpg?raw=true',
-        title: 'Pollera Negra Dana Buchman con bolsillo de cierre',
-        price: 12.000,
+        image: '17.jpg',
+        title: 'Pantalon Rayado Negro',
+        price: 10.000,
     },
     {
         id: 3,
@@ -37,9 +37,9 @@ const product = [
     },
     {
         id: 8,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/pantalon.jpg?raw=true',
-        title: 'Pantalon Talbots Puntos',
-        price: 18.000,
+        image: '18.jpg',
+        title: 'Pantalon Rayado Bordo',
+        price: 10.000,
     },
     {
         id: 9,
@@ -49,13 +49,13 @@ const product = [
     },
     {
         id: 10,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/11.jpg?raw=true',
-        title: 'Pantalon White Black',
-        price: 18.000,
+        image: '20.jpg',
+        title: 'Pantalon Beige',
+        price: 15.000,
     },
     {
         id: 11,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/12.jpg?raw=true',
+        image: '21.jpg',
         title: 'Pantalon Worthington',
         price: 18.000,
     },
@@ -73,7 +73,7 @@ const product = [
     },
     {
         id: 15,
-        image: 'https://github.com/Nahir13/A-y-R/blob/main/imagenes/16.jpg?raw=true',
+        image: '19.jpg',
         title: 'Pollera Negra Chadwicks',
         price: 12.000,
     },
